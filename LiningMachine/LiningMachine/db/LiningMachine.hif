@@ -1,0 +1,691 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+REGrs
+# storage
+db|LiningMachine.(1).cnf
+db|LiningMachine.(1).cnf
+# case_insensitive
+# source_file
+REGrs.bdf
+922d6be3c5a2ba16b665a533037ef98
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+REGrs:MAR
+REGrs:PC
+}
+# macro_sequence
+
+# end
+# entity
+ALU2
+# storage
+db|LiningMachine.(2).cnf
+db|LiningMachine.(2).cnf
+# case_insensitive
+# source_file
+ALU2.bdf
+b55348fccea99d8d3772955a1b59
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU2:inst
+}
+# macro_sequence
+
+# end
+# entity
+selector
+# storage
+db|LiningMachine.(3).cnf
+db|LiningMachine.(3).cnf
+# case_insensitive
+# source_file
+selector.bdf
+1d934f29b6ea8213693f5ffeb1bc32
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU2:inst|selector:inst24
+selector:A
+selector:B
+}
+# macro_sequence
+
+# end
+# entity
+ALU1
+# storage
+db|LiningMachine.(6).cnf
+db|LiningMachine.(6).cnf
+# case_insensitive
+# source_file
+ALU1.bdf
+464bc48a5ea95c10bdd712ecdc84de3f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU2:inst|ALU1:inst
+}
+# macro_sequence
+
+# end
+# entity
+RNM
+# storage
+db|LiningMachine.(8).cnf
+db|LiningMachine.(8).cnf
+# case_insensitive
+# source_file
+RNM.bdf
+fefd23fdcbff49cb4041f66360ee8e17
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+RNM:inst7
+}
+# macro_sequence
+
+# end
+# entity
+RA
+# storage
+db|LiningMachine.(9).cnf
+db|LiningMachine.(9).cnf
+# case_insensitive
+# source_file
+RA.bdf
+783d2041d7b1e8e4e4297b724d1d75c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+RNM:inst7|RA:inst3
+}
+# macro_sequence
+
+# end
+# entity
+MA
+# storage
+db|LiningMachine.(10).cnf
+db|LiningMachine.(10).cnf
+# case_insensitive
+# source_file
+MA.bdf
+496d2634d24b194e6888dccd4f6fa2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+RNM:inst7|MA:inst
+}
+# macro_sequence
+
+# end
+# entity
+PB
+# storage
+db|LiningMachine.(12).cnf
+db|LiningMachine.(12).cnf
+# case_insensitive
+# source_file
+PB.bdf
+e134c725ac6b97dc62574d5ad2d2555f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+RNM:inst7|PB:inst2
+}
+# macro_sequence
+
+# end
+# entity
+JP
+# storage
+db|LiningMachine.(13).cnf
+db|LiningMachine.(13).cnf
+# case_insensitive
+# source_file
+JP.bdf
+1b335935e42bf3130842aa5f9fcad4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+JP:inst5
+}
+# macro_sequence
+
+# end
+# entity
+24DECODER
+# storage
+db|LiningMachine.(14).cnf
+db|LiningMachine.(14).cnf
+# case_insensitive
+# source_file
+24DECODER.bdf
+a429bca0655b19aefacfd778707776a7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+JP:inst5|24DECODER:inst1
+}
+# macro_sequence
+
+# end
+# entity
+MOD4
+# storage
+db|LiningMachine.(15).cnf
+db|LiningMachine.(15).cnf
+# case_insensitive
+# source_file
+MOD4.bdf
+205d1fd55bda99b3cf8b9bddedbbba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+JP:inst5|MOD4:inst
+}
+# macro_sequence
+
+# end
+# entity
+START
+# storage
+db|LiningMachine.(16).cnf
+db|LiningMachine.(16).cnf
+# case_insensitive
+# source_file
+START.bdf
+b5a3b68f470c62ca1e4dadcb93b5c5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+START:inst6
+}
+# macro_sequence
+
+# end
+# entity
+G
+# storage
+db|LiningMachine.(18).cnf
+db|LiningMachine.(18).cnf
+# case_insensitive
+# source_file
+G.bdf
+e1a7794cc07eaf1a94975fee75c0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+SIGNAL:inst10|G:inst
+}
+# macro_sequence
+
+# end
+# entity
+WNR
+# storage
+db|LiningMachine.(19).cnf
+db|LiningMachine.(19).cnf
+# case_insensitive
+# source_file
+WNR.bdf
+2a55852c89016e36e80f78c743f6712
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+SIGNAL:inst10|WNR:inst2
+}
+# macro_sequence
+
+# end
+# entity
+TSG
+# storage
+db|LiningMachine.(20).cnf
+db|LiningMachine.(20).cnf
+# case_insensitive
+# source_file
+TSG.bdf
+e7b8a25f8ee43ba682c8549a51efc1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+SIGNAL:inst10|TSG:inst1
+}
+# macro_sequence
+
+# end
+# entity
+416DECODER
+# storage
+db|LiningMachine.(21).cnf
+db|LiningMachine.(21).cnf
+# case_insensitive
+# source_file
+416DECODER.bdf
+b6ce27d2b2154f359b6786177b792ce9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+416DECODER:inst1
+}
+# macro_sequence
+
+# end
+# entity
+jicunqi
+# storage
+db|LiningMachine.(22).cnf
+db|LiningMachine.(22).cnf
+# case_insensitive
+# source_file
+jicunqi.bdf
+def666c3d463cc9fc7c86f8ddfb93c10
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+jicunqi:IR
+jicunqi:R0
+jicunqi:R1
+}
+# macro_sequence
+
+# end
+# entity
+CP
+# storage
+db|LiningMachine.(23).cnf
+db|LiningMachine.(23).cnf
+# case_insensitive
+# source_file
+CP.bdf
+b8f8822fbf3c6b2fcb5c1c11443dd7d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CP:inst3
+}
+# macro_sequence
+
+# end
+# entity
+PREALU
+# storage
+db|LiningMachine.(24).cnf
+db|LiningMachine.(24).cnf
+# case_insensitive
+# source_file
+PREALU.bdf
+cbede56c78f18d8c5ec0f948c1784c1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PREALU:inst8
+}
+# macro_sequence
+
+# end
+# entity
+M
+# storage
+db|LiningMachine.(25).cnf
+db|LiningMachine.(25).cnf
+# case_insensitive
+# source_file
+M.bdf
+57c036757e116ee2c237f10b3b6c2d2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PREALU:inst8|M:inst
+}
+# macro_sequence
+
+# end
+# entity
+S3
+# storage
+db|LiningMachine.(26).cnf
+db|LiningMachine.(26).cnf
+# case_insensitive
+# source_file
+S3.bdf
+34b52edf96e737c78d53f9c372313
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PREALU:inst8|S3:inst1
+}
+# macro_sequence
+
+# end
+# entity
+S2
+# storage
+db|LiningMachine.(27).cnf
+db|LiningMachine.(27).cnf
+# case_insensitive
+# source_file
+S2.bdf
+424c46d491e6d9e26dfc4b9e4cc1b59
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PREALU:inst8|S2:inst3
+}
+# macro_sequence
+
+# end
+# entity
+S1
+# storage
+db|LiningMachine.(28).cnf
+db|LiningMachine.(28).cnf
+# case_insensitive
+# source_file
+S1.bdf
+62a27e4e385e59615dc8ff4ad31fa43
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PREALU:inst8|S1:inst2
+}
+# macro_sequence
+
+# end
+# entity
+S0
+# storage
+db|LiningMachine.(29).cnf
+db|LiningMachine.(29).cnf
+# case_insensitive
+# source_file
+S0.bdf
+c519bf99c155bdabf422dd5dfce02f83
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PREALU:inst8|S0:inst4
+}
+# macro_sequence
+
+# end
+# entity
+CN
+# storage
+db|LiningMachine.(30).cnf
+db|LiningMachine.(30).cnf
+# case_insensitive
+# source_file
+CN.bdf
+cdbe6374b4404fe847231dc180575167
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PREALU:inst8|CN:inst5
+}
+# macro_sequence
+
+# end
+# entity
+MULCAN
+# storage
+db|LiningMachine.(31).cnf
+db|LiningMachine.(31).cnf
+# case_insensitive
+# source_file
+MULCAN.bdf
+fde742b3421d44ee2e8dd158b48fb0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MULCAN:inst2
+}
+# macro_sequence
+
+# end
+# entity
+74125
+# storage
+db|LiningMachine.(32).cnf
+db|LiningMachine.(32).cnf
+# case_insensitive
+# source_file
+74125.bdf
+b27fbd7e9e9c3f5ac4f813955cd84
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74125:inst4
+}
+# macro_sequence
+
+# end
+# entity
+SIGNAL
+# storage
+db|LiningMachine.(17).cnf
+db|LiningMachine.(17).cnf
+# case_insensitive
+# source_file
+SIGNAL.bdf
+3677b7863dde127506e8746447f999a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+SIGNAL:inst10
+}
+# macro_sequence
+
+# end
+# entity
+LiningMachine
+# storage
+db|LiningMachine.(0).cnf
+db|LiningMachine.(0).cnf
+# case_insensitive
+# source_file
+LiningMachine.bdf
+abf030d0317837d5f525d9a7cfd776
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+74284
+# storage
+db|LiningMachine.(4).cnf
+db|LiningMachine.(4).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74284.bdf
+6c709183d9d28fbe1fe22cf210d55ec6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU2:inst|74284:inst2
+}
+# macro_sequence
+
+# end
+# entity
+74285
+# storage
+db|LiningMachine.(5).cnf
+db|LiningMachine.(5).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74285.bdf
+3b73752db1d377fb87531feba2f5df5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU2:inst|74285:inst1
+}
+# macro_sequence
+
+# end
+# entity
+74181
+# storage
+db|LiningMachine.(7).cnf
+db|LiningMachine.(7).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74181.bdf
+5a7a42864d75db2f39a1f2da31e3e53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU2:inst|ALU1:inst|74181:inst
+ALU2:inst|ALU1:inst|74181:inst23
+}
+# macro_sequence
+
+# end
+# entity
+RB
+# storage
+db|LiningMachine.(11).cnf
+db|LiningMachine.(11).cnf
+# case_insensitive
+# source_file
+RB.bdf
+2ba88e2b6c463b9d7f49742fd02a6f8e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+RNM:inst7|RB:inst4
+}
+# macro_sequence
+
+# end
+# complete
+

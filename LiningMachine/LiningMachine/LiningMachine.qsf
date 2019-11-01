@@ -1,0 +1,75 @@
+# Copyright (C) 1991-2008 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		LiningMachine_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C8Q208C8
+set_global_assignment -name TOP_LEVEL_ENTITY LiningMachine
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 8.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:43:47  NOVEMBER 12, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION 8.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name BDF_FILE LiningMachine.bdf
+set_global_assignment -name MISC_FILE "H:/01大学课程文件/计算机组成原理课程设计/LiningMachine/LiningMachine.dpf"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_63 -to RD
+set_location_assignment PIN_64 -to WR
+set_location_assignment PIN_168 -to "RAM-A0"
+set_location_assignment PIN_169 -to "RAM-A1"
+set_location_assignment PIN_170 -to "RAM-A2"
+set_location_assignment PIN_171 -to "RAM-A3"
+set_location_assignment PIN_173 -to "RAM-A4"
+set_location_assignment PIN_175 -to "RAM-A5"
+set_location_assignment PIN_176 -to "RAM-A6"
+set_location_assignment PIN_179 -to "RAM-A7"
+set_location_assignment PIN_192 -to "RAM-D0"
+set_location_assignment PIN_193 -to "RAM-D1"
+set_location_assignment PIN_195 -to "RAM-D2"
+set_location_assignment PIN_197 -to "RAM-D3"
+set_location_assignment PIN_198 -to "RAM-D4"
+set_location_assignment PIN_199 -to "RAM-D5"
+set_location_assignment PIN_200 -to "RAM-D6"
+set_location_assignment PIN_201 -to "RAM-D7"
+set_location_assignment PIN_34 -to r00
+set_location_assignment PIN_35 -to r01
+set_location_assignment PIN_37 -to r02
+set_location_assignment PIN_39 -to r03
+set_location_assignment PIN_40 -to r04
+set_location_assignment PIN_41 -to r05
+set_location_assignment PIN_43 -to r06
+set_location_assignment PIN_44 -to r07
+set_location_assignment PIN_132 -to STEP
+set_location_assignment PIN_131 -to STAND
+set_location_assignment PIN_206 -to CLR
+set_location_assignment PIN_77 -to ON
+set_global_assignment -name MISC_FILE "F:/杜高源/大学/大三上/计组课程设计（计算机学院）/201400301007-刘梦源-4班/少点东西/硬布线模型机/LiningMachine/LiningMachine.dpf"

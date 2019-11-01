@@ -1,0 +1,126 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.666 ns
+From           : UIR15
+To             : REGrs:MAR|inst9
+From Clock     : --
+To Clock       : UIR9
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 22.122 ns
+From           : jicunqi:R1|inst16
+To             : RAM-d4
+From Clock     : 77
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 21.857 ns
+From           : UIR13
+To             : RAM-d4
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.023 ns
+From           : UIR8
+To             : upc:inst5|74161:inst9|f74161:sub|9
+From Clock     : --
+To Clock       : 77
+Failed Paths   : 0
+
+Type           : Clock Setup: 'UIR10'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 103.06 MHz ( period = 9.703 ns )
+From           : jicunqi:R1|inst16
+To             : REGrs:MAR|inst9
+From Clock     : UIR10
+To Clock       : UIR10
+Failed Paths   : 0
+
+Type           : Clock Setup: 'UIR11'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 103.44 MHz ( period = 9.667 ns )
+From           : jicunqi:R1|inst16
+To             : REGrs:MAR|inst9
+From Clock     : UIR11
+To Clock       : UIR11
+Failed Paths   : 0
+
+Type           : Clock Setup: 'UIR9'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 104.65 MHz ( period = 9.556 ns )
+From           : jicunqi:R1|inst16
+To             : REGrs:MAR|inst9
+From Clock     : UIR9
+To Clock       : UIR9
+Failed Paths   : 0
+
+Type           : Clock Setup: '77'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 108.85 MHz ( period = 9.187 ns )
+From           : jicunqi:R1|inst16
+To             : REGrs:MAR|inst9
+From Clock     : 77
+To Clock       : 77
+Failed Paths   : 0
+
+Type           : Clock Setup: 'LIAN131'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 108.85 MHz ( period = 9.187 ns )
+From           : jicunqi:R1|inst16
+To             : REGrs:MAR|inst9
+From Clock     : LIAN131
+To Clock       : LIAN131
+Failed Paths   : 0
+
+Type           : Clock Setup: 'DAN132'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 108.85 MHz ( period = 9.187 ns )
+From           : jicunqi:R1|inst16
+To             : REGrs:MAR|inst9
+From Clock     : DAN132
+To Clock       : DAN132
+Failed Paths   : 0
+
+Type           : Clock Setup: 'G'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 108.85 MHz ( period = 9.187 ns )
+From           : jicunqi:R1|inst16
+To             : REGrs:MAR|inst9
+From Clock     : G
+To Clock       : G
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

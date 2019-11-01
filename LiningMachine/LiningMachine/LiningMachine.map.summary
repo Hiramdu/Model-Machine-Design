@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Nov 21 08:40:32 2017
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : LiningMachine
+Top-level Entity Name : LiningMachine
+Family : Cyclone II
+Total logic elements : 177
+    Total combinational functions : 177
+    Dedicated logic registers : 40
+Total registers : 40
+Total pins : 30
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

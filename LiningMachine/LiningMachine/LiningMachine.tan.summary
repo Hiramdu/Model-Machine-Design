@@ -1,0 +1,116 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.137 ns
+From           : RAM-D0
+To             : jicunqi:R0|inst11
+From Clock     : --
+To Clock       : STAND
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 30.557 ns
+From           : jicunqi:R0|inst17
+To             : RAM-D6
+From Clock     : STEP
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 23.026 ns
+From           : RAM-D0
+To             : RAM-D6
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.723 ns
+From           : RAM-D3
+To             : jicunqi:R0|inst14
+From Clock     : --
+To Clock       : STEP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ON'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 32.33 MHz ( period = 30.930 ns )
+From           : JP:inst5|MOD4:inst|inst5
+To             : jicunqi:R0|inst11
+From Clock     : ON
+To Clock       : ON
+Failed Paths   : 0
+
+Type           : Clock Setup: 'STAND'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 32.33 MHz ( period = 30.930 ns )
+From           : JP:inst5|MOD4:inst|inst5
+To             : jicunqi:R0|inst11
+From Clock     : STAND
+To Clock       : STAND
+Failed Paths   : 0
+
+Type           : Clock Setup: 'STEP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 32.33 MHz ( period = 30.930 ns )
+From           : JP:inst5|MOD4:inst|inst5
+To             : jicunqi:R0|inst11
+From Clock     : STEP
+To Clock       : STEP
+Failed Paths   : 0
+
+Type           : Clock Hold: 'STEP'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : JP:inst5|MOD4:inst|inst4
+To             : jicunqi:R0|inst12
+From Clock     : STEP
+To Clock       : STEP
+Failed Paths   : 66
+
+Type           : Clock Hold: 'STAND'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : JP:inst5|MOD4:inst|inst4
+To             : jicunqi:R0|inst12
+From Clock     : STAND
+To Clock       : STAND
+Failed Paths   : 66
+
+Type           : Clock Hold: 'ON'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : JP:inst5|MOD4:inst|inst4
+To             : jicunqi:R0|inst12
+From Clock     : ON
+To Clock       : ON
+Failed Paths   : 66
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 198
+
+--------------------------------------------------------------------------------------
+
